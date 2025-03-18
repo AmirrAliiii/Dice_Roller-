@@ -12,5 +12,5 @@ function rolldice() {
   }
 
   diceResult.textContent = `You rolled: ${values.join(", ")}`;
-  diceImages.innerHTML = images;
+  diceImages.innerHTML = images.join(``);
 }
